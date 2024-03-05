@@ -1,6 +1,4 @@
-package org.example;
-
-import org.example.Grammar;
+package Lab1;
 
 import java.util.*;
 
@@ -10,6 +8,14 @@ public class FiniteAutomaton {
     private Map<String, Map<String, String>> transitions;
     private Set<String> acceptingStates;
     private String startState;
+
+    public FiniteAutomaton(Set<String> states, Set<String> alphabet, Map<String, Map<String, String>> transitions, Set<String> acceptingStates, String startState) {
+        this.states = states;
+        this.alphabet = alphabet;
+        this.transitions = transitions;
+        this.acceptingStates = acceptingStates;
+        this.startState = startState;
+    }
 
     public FiniteAutomaton(Grammar grammar) {
         // Initialize sets and maps
@@ -114,7 +120,6 @@ public class FiniteAutomaton {
         System.out.println("States: " + finiteAutomaton.getStates());
         System.out.println("Alphabet: " + finiteAutomaton.getAlphabet());
         System.out.println("Transitions: " + finiteAutomaton.getTransitions());
-        System.out.println("Accepting States: " + finiteAutomaton.getAcceptingStates());
         System.out.println("Start State: " + finiteAutomaton.getStartState());
 
         String input1 = "bcd";
