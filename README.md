@@ -6,5 +6,5 @@
 
 **Professors**: Dumitru Crețu, Irina Cojuhari
 
-[**Lab1 : **](https://github.com/qopas/LFA/tree/master/src/main/java/Lab1)https://github.com/qopas/LFA/tree/master/src/main/java/Lab1
-[**Lab2 :** ](https://github.com/qopas/LFA/tree/master/src/main/java/Lab2)https://github.com/qopas/LFA/tree/master/src/main/java/Lab2
+[**Lab1 : **](https://github.com/qopas/LFA/tree/master/src/main/java/Lab1)
+[**Lab2 :** ](https://github.com/qopas/LFA/tree/master/src/main/java/Lab2)
