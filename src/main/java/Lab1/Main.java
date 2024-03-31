@@ -42,7 +42,7 @@ public class Main {
         System.out.println("Transitions: " + finiteAutomaton.getTransitions());
         System.out.println("Accepting States: " + finiteAutomaton.getAcceptingStates());
         System.out.println("Start State: " + finiteAutomaton.getStartState());
-    /*
+
         String input1 = "aaabd";
         String input2 = "aabccaba";
         String input3 = "abcda";
@@ -51,8 +51,6 @@ public class Main {
         System.out.println("Input2 accepted? " + finiteAutomaton.acceptsInput(input2));
         System.out.println("Input3 accepted? " + finiteAutomaton.acceptsInput(input3));
         System.out.println("Input4 accepted? " + finiteAutomaton.acceptsInput(input4));
-
-     */
         System.out.println(grammar.classifyGrammar());
     }
 }

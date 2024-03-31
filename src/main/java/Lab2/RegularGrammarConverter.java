@@ -64,7 +64,7 @@ public class RegularGrammarConverter {
         for (String production : grammarProductions) {
             System.out.println(production);
         }
-        System.out.println(AutomatonTypeChecker.isDeterministic(fa.getTransitions())) ;
+        System.out.println("Is determenistic: " + AutomatonTypeChecker.isDeterministic(fa.getTransitions())) ;
     }
 
 }
