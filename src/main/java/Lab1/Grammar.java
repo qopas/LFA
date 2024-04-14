@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.Random;
 
 public class Grammar {
+
     private List<String> productions;
 
     public Grammar() {
